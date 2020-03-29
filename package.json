@@ -3,12 +3,21 @@
   "version": "1.0.0",
   "description": "my blog",
   "main": "index.js",
+  "homepage": "https://anthonymota.github.io/blog",
   "scripts": {
-    "deploy": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh -pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "gh-pages": "^2.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonymota/blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anthonymota/blog/issues"
   }
 }
