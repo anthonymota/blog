@@ -15,6 +15,7 @@ a {
     color: blue;
     padding: 1rem;
     display: block;
+    width: auto;
 }
 
 .exponent {
